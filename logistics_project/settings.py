@@ -108,12 +108,12 @@ ASGI_APPLICATION = 'logistics_project.asgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 
 
@@ -139,17 +139,17 @@ ASGI_APPLICATION = 'logistics_project.asgi.application'
 #         }
 #     }
 
-DATABASES = {
-        'default': 
-        {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'logistics',
-        'USER': 'logistics_users',    
-        'PASSWORD': 'Ekfrazo@123#',    
-        'HOST': '143.110.184.45',    
-        'PORT': '3306',     
-        }
-    }
+# DATABASES = {
+#         'default': 
+#         {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'logistics',
+#         'USER': 'logistics_users',    
+#         'PASSWORD': 'Ekfrazo@123#',    
+#         'HOST': '143.110.184.45',    
+#         'PORT': '3306',     
+#         }
+#     }
 
 # DATABASES = {
 #         'default': 
